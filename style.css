@@ -3,11 +3,17 @@ header{
     background-image:url(img/bannercub2.jpg);
     background-size: cover;
     padding: 6%;
+    border-radius: 0 0 60px 60px;
 }
 h1{
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:5vw;
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0 10%;
+    margin: auto;
 }
 body{
     margin: 0;
@@ -28,7 +34,6 @@ main{
 main p{
     width: 77%;
     font-size: 2vw;
-
 }
 main img{
     width: 32%;
@@ -43,6 +48,7 @@ hr{
     border: none;
     background-color: black;
     margin-top: 30px;
+    border-radius: 3px;
 }
 #n2 video{
     width: 60%;
@@ -51,6 +57,8 @@ hr{
 }
 #n2{
     text-align: center;
+    padding-bottom: 10%;
+    padding-top: 2%;
 }
 #n2 h4{
     color: rgb(0, 0, 0);
@@ -76,6 +84,7 @@ hr{
     padding-right: 10%;
     padding-left: 10%;
     text-align: center;
+    font-size: 2vw;
 }
 footer{
     background-image: url(img/bannercub3.jpg);
@@ -84,4 +93,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
+}
+#qw{
+    margin-top: -8%;
 }
