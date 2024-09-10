@@ -60,6 +60,10 @@ hr{
     padding-bottom: 10%;
     padding-top: 2%;
 }
+#n2 h3{
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 #n2 h4{
     color: rgb(0, 0, 0);
     font-size:2vw;
@@ -96,4 +100,57 @@ footer{
 }
 #qw{
     margin-top: -8%;
+}
+#modal img{
+    width:20%;
+    border-radius: 10px;
+}
+#modal img:hover{
+    cursor: pointer;
+}
+#modal{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.658);
+    display: none;
+    width:50%;
+    height: 50vh;
+    position: fixed;
+    top: 25vh;
+    left: 25%;
+    font-size: 36px;
+
+}
+#cnopka{
+    padding: 2% 6%;
+    font-size: 38px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 95px;
+    margin-top: -95px;
+}
+#bttn{
+    text-align: center;
+}
+
+#cnopka:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color:rgba(255, 255, 255, 0.664);
+}
+#asdf{
+    padding: 20px 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+}
+#asdf:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color:rgb(160, 160, 160)
+}
+#viki:hover{
+    transform: scale(1.07);
 }

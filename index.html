@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="tel.css">
+    <script src="mdl.js">
+
+    </script>
     <title>Кубик Рубика</title>
 </head>
 <body>
@@ -36,6 +39,20 @@
         </h3>
         <video src="vidos/world_record.mp4" controls muted>
         </video>
+    </section>
+    <section id="bttn">
+        <button id="cnopka" onclick="showmodal()">
+            Подробнее
+        </button>
+        <div id="modal">
+            <h3>
+                читать подробнее:
+            </h3>
+            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B1%D0%B8%D0%BA_%D0%A0%D1%83%D0%B1%D0%B8%D0%BA%D0%B0"><img src="img/wik.jpeg" id="viki" alt=""></a>
+            <br>
+            <br>
+            <button id="asdf" onclick="closemodal()">Закрыть</button>   
+        </div>
     </section>
     <footer>
 

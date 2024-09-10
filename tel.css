@@ -95,5 +95,33 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: rgb(0, 0, 0);
     }
-    
+    #cnopka{
+        padding: 3% 6%;
+        font-size: 5vw;
+        box-sizing: border-box;
+        border-radius: 7px;
+        border: none;
+        margin-bottom: 45px;
+        margin-top: 0px;
+    }
+    #asdf{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    #modal{
+        text-align: center;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.76);
+        display: none;
+        width:50%;
+        height: 50vh;
+        position: fixed;
+        top: 25vh;
+        left: 25%;
+        font-size: 36px;
+    }
+    #n2 h3{
+        font-size: 5vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 }
